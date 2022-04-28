@@ -38,7 +38,6 @@ const config = {
         port: 8080, // 端口号
         open: true  // 是否自动打开浏览器
     },
-    exclude: './node_modules'
 }
 module.exports = (env, argv) => {
     console.log("argv.mode=", argv.mode);// 打印mode值
