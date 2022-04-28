@@ -1,0 +1,106 @@
+html {
+    font-size: 10px;
+    cursor: default;
+    user-select: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-size: 4rem;
+    color: orange;
+    text-align: center;
+}
+
+.week {
+    text-align: center;
+}
+
+.week>li {
+    float: left;
+
+}
+
+h4 {
+    font-size: 3rem;
+    color: orange;
+    text-align: center;
+}
+
+h4>span:nth-child(2n+1):hover {
+    color: red;
+    cursor: default;
+}
+
+.date>ul {
+    display: flex;
+}
+
+.date>ul>li {
+    flex: 7;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.day>div>ul {
+    display: flex;
+}
+
+.day>div>ul>li {
+    flex: 7;
+    height: 4rem;
+    font-size: 20px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    line-height: 4rem;
+}
+
+.sun {
+    flex-basis: 4rem;
+    border: 1px red solid;
+    border-radius: 50%;
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+
+.moon {
+    flex-basis: 4rem;
+    border: 1px red solid;
+    border-radius: 50%;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+.will {
+    flex-basis: 4rem;
+    border: 1px red solid;
+    border-radius: 50%;
+    text-align: center;
+    background-color: skyblue;
+    color: white;
+}
+
+.now {
+    flex-basis: 4rem;
+    border: 1px white solid;
+    border-radius: 50%;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+.big {
+    display: flex;
+    justify-content: center;
+}
+
+.big button {
+    margin: 2rem;
+    flex-basis: 20rem;
+}
